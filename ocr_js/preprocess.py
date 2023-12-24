@@ -88,6 +88,7 @@ binaryImage = cv2.morphologyEx(
     cv2.BORDER_REFLECT101,
 )
 
-cv2.imwrite("./thres.jpg", binaryImage)
+# cv2.imwrite("./thres.jpg", binaryImage)
 
-sys.stdout.write(ndarray_to_image_string(binaryImage))
+# sys.stdout.write(ndarray_to_image_string(binaryImage))
+print(ndarray_to_image_string(binaryImage))
